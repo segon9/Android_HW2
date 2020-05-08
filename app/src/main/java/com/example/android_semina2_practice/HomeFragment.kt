@@ -55,7 +55,7 @@ class HomeFragment : Fragment() {
                 ))
 
         }
-        rv_home.addItemDecoration(SpaceDecoration(10))
+        rv_home.addItemDecoration(SpaceDecoration(5))
         instaAdapter.datas = datas
         instaAdapter.notifyDataSetChanged() //데이터가 갱신되었음을 어댑터에 알려주는 역할
 
